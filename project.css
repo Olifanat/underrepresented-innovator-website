@@ -1,0 +1,22 @@
+h4.menu_class
+{
+    color: white;
+    margin-top: 15px;
+}
+
+h4.menu_button
+{
+    padding: 0 35px;
+    margin-top: 15px;
+    color: white; 
+}
+
+.menu_bar
+{
+    background-color: #12175F;
+}
+
+a:hover
+{
+    color: white;
+}
