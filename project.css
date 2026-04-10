@@ -1,17 +1,17 @@
-h4.menu_class
+h4.menu-class
 {
     color: white;
     margin-top: 15px;
 }
 
-h4.menu_button
+h4.menu-button
 {
     padding: 0 35px;
     margin-top: 15px;
     color: white; 
 }
 
-.menu_bar
+.menu-bar
 {
     background-color: #12175F;
 }
