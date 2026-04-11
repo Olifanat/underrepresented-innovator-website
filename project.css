@@ -20,3 +20,28 @@ a:hover
 {
     color: white;
 }
+
+/* This section contains classes for process page */
+.page-header
+{
+    background-color: #60C7CC;
+    margin: 0 0;
+    padding: 100px 0;
+}
+
+h2.header-text
+{
+    color: white;
+    margin: -60px;
+}
+
+.box-research
+{
+    background-color: #EDD0D0;
+    border-radius: 8px;
+    margin: -60px auto 0 auto;  
+    width: 700px;   
+    height: 500px;  
+}
+
+/* End of section */
