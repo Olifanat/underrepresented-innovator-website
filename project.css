@@ -1,3 +1,4 @@
+/* Global classes */
 h4.menu-class
 {
     color: white;
@@ -21,6 +22,8 @@ a:hover
     color: white;
 }
 
+/* End of section */
+
 /* This section contains classes for process page */
 .page-header
 {
@@ -29,19 +32,51 @@ a:hover
     padding: 100px 0;
 }
 
-h2.header-text
+h1.header-text
 {
+    font: bold;
     color: white;
     margin: -60px;
 }
 
-.box-research
+.box
 {
     background-color: #EDD0D0;
     border-radius: 8px;
     margin: -60px auto 0 auto;  
     width: 700px;   
-    height: 500px;  
+    height: 500px;
 }
 
+a.report
+{
+    color: #1E7D82;
+    font-size: 150%;
+    margin-left: 55px;
+    text-decoration: underline;
+}
+
+.box-img
+{
+    margin-top: 15px;
+    width: 200px;
+    height: auto;
+}
+
+.box-text
+{
+    margin-left: 20px;
+    max-width: 450px;
+}
+
+h2.box-text
+{
+    font: bold;
+    font-size: 300%;
+}
+
+p.box-text
+{
+    font-size: 200%;
+}
 /* End of section */
