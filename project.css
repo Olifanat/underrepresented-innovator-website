@@ -36,6 +36,7 @@ h1.header-text
 {
     font: bold;
     color: white;
+    font-size: 400%;
     margin: -60px;
 }
 
@@ -43,9 +44,9 @@ h1.header-text
 {
     background-color: #EDD0D0;
     border-radius: 8px;
-    margin: -60px auto 0 auto;  
-    width: 700px;   
-    height: 500px;
+    margin: -60px auto 150px auto;
+    max-width: 700px;   
+    min-height: 500px;
 }
 
 a.report
@@ -79,4 +80,5 @@ p.box-text
 {
     font-size: 200%;
 }
+
 /* End of section */
