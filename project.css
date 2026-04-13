@@ -84,7 +84,7 @@ p.box-text
 /* End of section */
 
 /* This section is for innovator page */
-.col-md-4 {
+.innovator {
   border: 2px solid #333;
   border-radius: 10px;
   padding: 15px;
@@ -94,19 +94,19 @@ p.box-text
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
-h3.innovato {
+h3.innovator {
   color: #333;
   border-bottom: 1px solid #ccc;
   padding-bottom: 8px;
   margin-bottom: 10px;
 }
 
-p {
+p.innovator {
   color: #555;
   line-height: 1.6;
 }
 
-.row {
+.row.innovator {
   margin-top: 20px;
   margin-bottom: 20px;
 }
