@@ -1,4 +1,9 @@
 /* Global classes */
+body
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
 h4.menu-class
 {
     color: white;
@@ -11,16 +16,16 @@ h4.menu-class
     display: inline-block;
 } */
 
-.menu-button:hover {
+/* .menu-button:hover {
     text-decoration: underline;
     color:#d8bcbc
-}
+} */
 
 h4.menu-button
 {
     padding: 0 35px;
     margin-top: 15px;
-    color: white; 
+    color: white;
 }
 
 .menu-bar
@@ -39,7 +44,7 @@ a:hover
 {
     background-color: #60C7CC;
     margin: 0 0;
-    padding: 100px 0;
+    padding: 80px 0px;
 }
 
 h1.header-text
@@ -47,50 +52,73 @@ h1.header-text
     font: bold;
     color: white;
     font-size: 400%;
-    margin: -60px;
+    margin: -40px;
 }
 
-.box
+.timeline-section 
+{
+    max-width: 600px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.step 
 {
     background-color: #EDD0D0;
     border-radius: 8px;
-    margin: -60px auto 150px auto;
-    max-width: 700px;   
-    min-height: 500px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-a.report
+.step-number 
+{
+    background-color: #12175F;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.step h2 
+{
+    color: #12175F;
+    font-size: 180%;
+    font-weight: bold;
+}
+
+.step p 
+{
+    font-size: 140%;
+}
+
+.step-link 
 {
     color: #1E7D82;
-    font-size: 150%;
-    margin-left: 55px;
     text-decoration: underline;
 }
 
-.box-img
+.status-done 
 {
-    margin-top: 15px;
-    width: 200px;
-    height: auto;
+    background-color: #d4edda;
+    color: #2d6a4f;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 100%;
+    font-weight: bold;
 }
 
-.box-text
-{
-    margin-left: 20px;
-    max-width: 450px;
+.status-wip {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 100%;
+    font-weight: bold;
 }
-
-h2.box-text
-{
-    font: bold;
-    font-size: 300%;
-}
-
-p.box-text
-{
-    font-size: 200%;
-}
-
 /* End of section */
 
 /* This section is for innovator page */
@@ -126,7 +154,6 @@ p.innovator {
 /* This section contains classes for team page */
 .config {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #4a4747;
 }
 
@@ -164,13 +191,11 @@ p.innovator {
     background-color: #60C7CC;
     padding: 12px 0;
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .home-section1 {
     padding: 60px 0;
     background-color: #d8bcbc;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .home-img {
@@ -182,6 +207,5 @@ p.innovator {
 .features {
     background-color: #f5f5f5;
     padding: 60px 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /* End of section */
